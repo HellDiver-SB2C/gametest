@@ -39,7 +39,7 @@ function $(id) {
       judge(ev);
     };
   
-    // 定时器 每30毫秒调用一次move()
+    // 定时器 每10毫秒调用一次move()
     clock = window.setInterval('move()', 10);
   }
   
@@ -84,7 +84,7 @@ function $(id) {
     var con = $('con');
     con.innerHTML = '';
     $('score').innerHTML = 0;
-    con.style.top = '-408px';
+    con.style.top = '-808px';
   }
   
   // 创造一个<div class="row">并且有四个子节点<div class="cell">
